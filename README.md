@@ -1,23 +1,24 @@
 # 🧮 Python Scientific & Geometry Calculator
 
-โปรแกรมเครื่องคิดเลขแบบ GUI ที่พัฒนาด้วย **Python Tkinter** รองรับทั้งการคำนวณทั่วไป การคำนวณทางวิทยาศาสตร์ และการคำนวณเรขาคณิต
+A GUI-based calculator developed with **Python Tkinter**.  
+It supports basic arithmetic, scientific calculations, and geometry calculations.
 
 ---
 
-## ฟังก์ชันของระบบ
+## System Functions
 
-### การคำนวณพื้นฐาน
-- บวก `+`
-- ลบ `-`
-- คูณ `×`
-- หาร `÷`
-- เปอร์เซ็นต์ `%`
-- ค่าสัมบูรณ์ `|x|`
-- ลบค่าทีละตัว `Del`
-- ล้างค่าทั้งหมด `C`
-- ใช้วงเล็บ `( )`
+### Basic Calculations
+- Addition `+`
+- Subtraction `-`
+- Multiplication `×`
+- Division `÷`
+- Percentage `%`
+- Absolute value `|x|`
+- Delete one character `Del`
+- Clear all values `C`
+- Parentheses `( )`
 
-### การคำนวณทางวิทยาศาสตร์
+### Scientific Calculations
 - `sin`, `cos`, `tan`
 - `sin⁻¹`, `cos⁻¹`, `tan⁻¹`
 - `sinh`, `cosh`, `tanh`
@@ -29,36 +30,37 @@
 - `x!`
 - `eˣ`
 - `π`, `2π`, `e`
-- แปลงค่า `Degree ↔ Radian`
-- สุ่มตัวเลข
+- Degree ↔ Radian conversion
+- Random number generation
 
-### การคำนวณเรขาคณิต
-- พื้นที่วงกลม
-- เส้นรอบวง
-- พื้นที่สี่เหลี่ยม
-- พื้นที่สามเหลี่ยม
-- ปริมาตรทรงกลม
-- พื้นที่ผิวทรงกลม
-- ปริมาตรทรงกระบอก
-- ปริมาตรทรงกรวย
-- ปริมาตรพีระมิด
-- ปริมาตรปริซึม
-
----
-
-## วิธีใช้งาน
-
-1. เปิดโปรแกรมด้วยไฟล์ `PCAL-Code.py`
-2. เลือกตัวเลขและเครื่องหมายที่ต้องการคำนวณ
-3. กดปุ่ม `=` เพื่อแสดงผลลัพธ์
-4. ใช้ปุ่ม `C` เพื่อล้างค่า และ `Del` เพื่อลบค่าทีละตัว
-5. กดปุ่ม `🔁` เพื่อสลับชุดฟังก์ชันทางวิทยาศาสตร์
-6. กดปุ่ม `💠` เพื่อเปิดหน้าต่าง **Geometry Calculator**
-7. กรอกค่า เช่น Radius, Width, Length, Height หรือ Base แล้วเลือกฟังก์ชันเรขาคณิตที่ต้องการ
+### Geometry Calculations
+- Circle area
+- Circumference
+- Rectangle area
+- Triangle area
+- Sphere volume
+- Sphere surface area
+- Cylinder volume
+- Cone volume
+- Pyramid volume
+- Prism volume
 
 ---
 
-## ภาพหน้าจอโปรแกรม
+## How to Use
+
+1. Run the program using `PCAL-Code.py`.
+2. Select the numbers and mathematical operators you want to calculate.
+3. Press `=` to display the result.
+4. Use `C` to clear all input values.
+5. Use `Del` to delete one character at a time.
+6. Press `🔁` to switch between scientific function modes.
+7. Press `💠` to open the **Geometry Calculator**.
+8. Enter values such as Radius, Width, Length, Height, or Base, then select the geometry calculation you want to perform.
+
+---
+
+## Application Preview
 
 ![Python Scientific & Geometry Calculator](PCAL-Img.jpg)
 
